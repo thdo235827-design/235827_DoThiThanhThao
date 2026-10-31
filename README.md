@@ -42,3 +42,15 @@ frontend và backend.
 - GitHub: https://github.com/thdo235827-design/235827_DoThiThanhThao
 - Frontend: Chưa triển khai.
 - Backend API: Chưa triển khai.
+## 8. Cơ sở dữ liệu MongoDB Atlas
+
+- Database: 235827_DoThiThanhThao
+- Collection: devices
+
+### Dữ liệu thiết bị mẫu
+1. TB001 - Máy chiếu Epson
+2. TB002 - Máy tính Dell
+3. TB003 - Loa hội trường
+
+Cơ sở dữ liệu được lưu trữ trên MongoDB Atlas.
+Thông tin xác thực được quản lý bằng biến môi trường.

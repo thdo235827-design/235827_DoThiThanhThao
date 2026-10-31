@@ -38,19 +38,21 @@ trên nền tảng điện toán đám mây.
 Sẽ được cập nhật sau khi hoàn thành
 frontend và backend.
 
-## 7. Đường dẫn triển khai
-- GitHub: https://github.com/thdo235827-design/235827_DoThiThanhThao
-- Frontend: Chưa triển khai.
-- Backend API: Chưa triển khai.
-## 8. Cơ sở dữ liệu MongoDB Atlas
+## Câu 7: Deploy Frontend
+- Platform: Render
+- Status: Live
 
-- Database: 235827_DoThiThanhThao
-- Collection: devices
+## Câu 8: Deploy Backend
+- Platform: Render
+- Backend URL: https://two35827-devicehub-backend.onrender.com
+- Health Check: /health
+- Database: MongoDB Atlas
+- Status: Live
 
-### Dữ liệu thiết bị mẫu
-1. TB001 - Máy chiếu Epson
-2. TB002 - Máy tính Dell
-3. TB003 - Loa hội trường
-
-Cơ sở dữ liệu được lưu trữ trên MongoDB Atlas.
-Thông tin xác thực được quản lý bằng biến môi trường.
+## Câu 9: Kiểm thử hệ thống
+- Hiển thị danh sách thiết bị: Thành công
+- Tìm kiếm thiết bị: Thành công
+- Thêm thiết bị: Thành công
+- Cập nhật thiết bị: Thành công
+- Xóa thiết bị: Thành công
+- Kết nối Frontend và Backend: Thành công
